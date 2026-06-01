@@ -1,0 +1,18 @@
+﻿2026-06-01T04:21:06.3742825Z ##[group]Run python submit.py
+2026-06-01T04:21:06.3743249Z [36;1mpython submit.py[0m
+2026-06-01T04:21:06.3772564Z shell: /usr/bin/bash -e {0}
+2026-06-01T04:21:06.3772879Z env:
+2026-06-01T04:21:06.3773208Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.13/x64
+2026-06-01T04:21:06.3773771Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.13/x64/lib/pkgconfig
+2026-06-01T04:21:06.3774288Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.13/x64
+2026-06-01T04:21:06.3774752Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.13/x64
+2026-06-01T04:21:06.3775200Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.13/x64
+2026-06-01T04:21:06.3775645Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.13/x64/lib
+2026-06-01T04:21:06.3776059Z   SIGNING_SECRET: hello-there-from-b12
+2026-06-01T04:21:06.3776394Z   NAME: Suraj Gupta Gudla
+2026-06-01T04:21:06.3776690Z   EMAIL: surajgupta268@gmail.com
+2026-06-01T04:21:06.3777478Z   RESUME_LINK: https://docs.google.com/document/d/1M5zCww9eQLuAfcFJPAfX2gVJoZYFQ2L0/edit?usp=sharing&ouid=117474002494256661878&rtpof=true&sd=true
+2026-06-01T04:21:06.3778339Z   REPOSITORY_LINK: https://github.com/surajgupta-git/github_actions
+2026-06-01T04:21:06.3778928Z   ACTION_RUN_LINK: https://github.com/surajgupta-git/github_actions/actions/runs/26734965304
+2026-06-01T04:21:06.3779660Z ##[endgroup]
+2026-06-01T04:21:07.6244560Z thank-you-from-b12-2026-06-01T04:21:07.531Z-18677da1529c

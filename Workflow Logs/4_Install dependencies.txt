@@ -1,0 +1,32 @@
+﻿2026-06-01T04:21:04.5710388Z ##[group]Run pip install requests
+2026-06-01T04:21:04.5712096Z [36;1mpip install requests[0m
+2026-06-01T04:21:04.5758850Z shell: /usr/bin/bash -e {0}
+2026-06-01T04:21:04.5759969Z env:
+2026-06-01T04:21:04.5761084Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.13/x64
+2026-06-01T04:21:04.5763372Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.13/x64/lib/pkgconfig
+2026-06-01T04:21:04.5765270Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.13/x64
+2026-06-01T04:21:04.5767054Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.13/x64
+2026-06-01T04:21:04.5768757Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.13/x64
+2026-06-01T04:21:04.5770483Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.13/x64/lib
+2026-06-01T04:21:04.5772223Z ##[endgroup]
+2026-06-01T04:21:05.6620493Z Collecting requests
+2026-06-01T04:21:05.7333398Z   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+2026-06-01T04:21:05.8433105Z Collecting charset_normalizer<4,>=2 (from requests)
+2026-06-01T04:21:05.8507044Z   Downloading charset_normalizer-3.4.7-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+2026-06-01T04:21:05.8817353Z Collecting idna<4,>=2.5 (from requests)
+2026-06-01T04:21:05.8886227Z   Downloading idna-3.17-py3-none-any.whl.metadata (6.4 kB)
+2026-06-01T04:21:05.9257615Z Collecting urllib3<3,>=1.26 (from requests)
+2026-06-01T04:21:05.9329684Z   Downloading urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)
+2026-06-01T04:21:05.9550351Z Collecting certifi>=2023.5.7 (from requests)
+2026-06-01T04:21:05.9626591Z   Downloading certifi-2026.5.20-py3-none-any.whl.metadata (2.5 kB)
+2026-06-01T04:21:05.9752689Z Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+2026-06-01T04:21:05.9922715Z Downloading charset_normalizer-3.4.7-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (216 kB)
+2026-06-01T04:21:06.0206983Z Downloading idna-3.17-py3-none-any.whl (65 kB)
+2026-06-01T04:21:06.0351555Z Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
+2026-06-01T04:21:06.0532417Z Downloading certifi-2026.5.20-py3-none-any.whl (134 kB)
+2026-06-01T04:21:06.0941049Z Installing collected packages: urllib3, idna, charset_normalizer, certifi, requests
+2026-06-01T04:21:06.3147865Z 
+2026-06-01T04:21:06.3163093Z Successfully installed certifi-2026.5.20 charset_normalizer-3.4.7 idna-3.17 requests-2.34.2 urllib3-2.7.0
+2026-06-01T04:21:06.3171523Z 
+2026-06-01T04:21:06.3172558Z [notice] A new release of pip is available: 26.1.1 -> 26.1.2
+2026-06-01T04:21:06.3173971Z [notice] To update, run: pip install --upgrade pip
