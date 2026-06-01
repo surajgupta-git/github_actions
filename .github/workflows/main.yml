@@ -1,0 +1,31 @@
+name: Submit Application
+
+on:
+  workflow_dispatch:
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Submit application
+        env:
+          SIGNING_SECRET: hello-there-from-b12
+
+          NAME: Suraj Gupta Gudla
+          EMAIL: surajgupta268@gmail.com
+          RESUME_LINK: https://docs.google.com/document/d/1M5zCww9eQLuAfcFJPAfX2gVJoZYFQ2L0/edit?usp=sharing&ouid=117474002494256661878&rtpof=true&sd=true
+          REPOSITORY_LINK: ${{ github.server_url }}/${{ github.repository }}
+
+          ACTION_RUN_LINK: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+        run: python submit.py
